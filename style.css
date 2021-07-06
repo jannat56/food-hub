@@ -109,39 +109,27 @@ h1 {
 
 .reciepe {
     text-align: center;
-
+    margin: 20px 40px;
+    padding: 20px;
 }
 
+/* new */
 .container {
     display: flex;
-    padding: 0 40px;
 }
 
 .cards {
-
-    width: 30%;
-    box-shadow: 10px 10px 40px gray;
-    background-color: grey;
-    padding: 10px;
-    margin: 10px;
+    width: 33.3%;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    box-shadow: 10px 10px 40px rgb(114, 112, 112);
     border-radius: 20px;
-    margin-bottom: 80px;
 }
 
 .image img {
     width: 100%;
-    border-radius: 20px;
-}
-
-.title {
-    text-align: center;
-    color: orange;
-
-}
-
-
-.des {
-    text-align: center;
 }
 
 .card {
@@ -161,6 +149,8 @@ h1 {
     width: 20%;
 
 }
+
+
 
 .foot {
     text-align: center;
