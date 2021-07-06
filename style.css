@@ -151,6 +151,7 @@ h1 {
 .title {
     text-align: center;
     color: orange;
+
 }
 
 
@@ -183,4 +184,8 @@ h1 {
     padding: 40px;
 
 
+}
+
+.title h1 {
+    font-size: 16px;
 }
