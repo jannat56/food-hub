@@ -40,7 +40,7 @@ body {
     background: whitesmoke;
 }
 
-.banner {
+/* .banner {
 
     display: flex;
     background-image: url(/images/backg.jpg);
@@ -53,14 +53,14 @@ body {
 
 
 
-}
+} */
 
-.banner:hover {
+/* .banner:hover {
     background: rosybrown;
     background-image: url(/images/mybc2.jpg);
     background-repeat: round;
 
-}
+} */
 
 
 h1 {
