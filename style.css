@@ -40,10 +40,10 @@ body {
     background: whitesmoke;
 }
 
-/* .banner {
+.banner {
 
     display: flex;
-    background-image: url(/images/backg.jpg);
+    background-image: url(/images/one.jpg);
 
     background-size: cover;
 
@@ -53,14 +53,16 @@ body {
 
 
 
-} */
+}
 
-/* .banner:hover {
+.banner:hover {
     background: rosybrown;
-    background-image: url(/images/mybc2.jpg);
-    background-repeat: round;
+    background-image: url(/images/two.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
-} */
+}
 
 
 h1 {
@@ -132,13 +134,18 @@ h1 {
 
 }
 
+.container {
+    display: flex;
+    padding: 0 40px;
+}
 
 .cards {
-    display: inline-block;
-    width: 22%;
+
+    width: 30%;
+
     background-color: grey;
-    padding: 3%;
-    margin: 2%;
+    padding: 10px;
+    margin: 10px;
     border-radius: 20px;
     margin-bottom: 80px;
 }
